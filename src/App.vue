@@ -1,19 +1,21 @@
 <template>
   <div id="app">
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <design></design>
+    <!-- <design></design> -->
+    <designnn />
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import design from "@/components/design";
-
+// import design from "@/components/design";
+import designnn from "@/components/designnn"
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    design
+    // design
+    designnn
   }
 }
 </script>
